@@ -1,0 +1,40 @@
+/* Select elements by name */
+h1{
+    font-size: 42px;
+    color: red;
+}
+
+/* Select by class name */
+.odd{
+    font-size: 10px;
+}
+
+/* Select by id - unique selector. should have only one id on a single page */
+#login{
+    width: 150px;
+}
+
+/* Select element with certain class */
+a.login{
+    width: 80px;
+}
+.item{
+    color: green;
+}
+/* .item .nestedList --> ex: ol, take second li */
+.item .nestedList{
+    color:aliceblue;
+}
+
+
+/* Inline CSS Style  */
+/* Embedded CSS Style 
+<style>
+    .red {
+        color: red;
+        }
+</style> */
+
+/* Inline and Block(takes all width on the row) Elements:
+<span> <b>=bold <strong> | <div> and <p>
+Inline-Block Elements <div style="display:inline-block;"> */
